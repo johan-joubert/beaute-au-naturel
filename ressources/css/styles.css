@@ -37,9 +37,6 @@ header {
 
 /*navbar*/
 
-. {
-    color: green !important;
-}
 
 nav {
     padding: 40px !important;
@@ -47,11 +44,24 @@ nav {
 }
 
 .navbar-nav {
-    margin: auto;
+    margin: auto 0 auto auto;
+}
+
+.dropdown-menu {
+    background-color: transparent !important;
+    border: none;
+}
+
+.dropdown-item {
+    color: #fff;
 }
 
 .white {
     color: #fff;
+}
+
+.whiteLogo {
+    color: transparent !important;
 }
 
 nav.scroll {
@@ -75,7 +85,7 @@ nav.scroll {
 header h1 {
     text-align: center;
     color: #ffff;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 150px;
 }
 
