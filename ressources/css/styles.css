@@ -1,0 +1,163 @@
+/*GENERAL*/
+html {
+    scroll-behavior: smooth; 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+/*HEADER*/
+
+header {
+    background-image: url('../images/bg_header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/*navbar*/
+
+. {
+    color: green !important;
+}
+
+nav {
+    padding: 40px !important;
+    transition: 1s;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.white {
+    color: #fff;
+}
+
+nav.scroll {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
+    padding: 10px !important;
+    font-size: 0.8em;
+    text-align: right !important;
+}
+
+.whiteLogo.scroll, .white1.scroll, .white2.scroll, .white3.scroll, .white4.scroll {
+    color: #000 !important;
+}
+
+.text-center {
+    color: #000;
+}
+
+
+header h1 {
+    text-align: center;
+    color: #ffff;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.linkHeader {
+    margin: 50px auto !important;
+    display: block !important;
+    text-align: center !important;
+    width: 280px;
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid #fff;
+    padding: 10px 60px;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.one {
+    background-color: #ffff;
+    color: #000;
+}
+
+.one:hover {
+    color: #000;
+}
+
+.two:hover {
+    color: #000;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.bloc-contact a {
+    color: #fff;
+    margin-top: 10px !important;
+    font-weight: 600;
+}
+
+.contacts {
+    color: #fff;
+}
+
+.two {
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+    color: #fff;
+}
+
+/*MAIN*/
+
+
+/*section intermédiaire*/
+.intermediate{
+    height: 280px;
+    width: 100%;
+    background-image: url(../images/annie-spratt-OWq8w3BYMFY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Section prestation*/
+
+#prestation {
+    padding: 100px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+
+
+/*Section marques*/
+
+#marques {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(29, 17, 8, 0.2)), url(../images/IMG-20201208-WA0027.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#marques ul {
+    list-style-type: none;
+}
+
+#marques ul li {
+    margin: 20px;
+}
+
+.nosMarques {
+    color: #fff;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
