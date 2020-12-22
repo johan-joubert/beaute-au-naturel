@@ -13,6 +13,17 @@ a {
     text-decoration: none !important;
 }
 
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: rgb(2, 5, 2);
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
 
 /*HEADER*/
 
@@ -146,6 +157,8 @@ img{
     background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(29, 17, 8, 0.2)), url(../images/IMG-20201208-WA0027.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 #marques ul {
@@ -160,4 +173,10 @@ img{
     color: #fff;
     padding-top: 40px;
     margin-bottom: 40px;
+}
+
+/*Follow Us*/
+i {
+    color: #e89863 !important;
+    font-size: 4em;
 }

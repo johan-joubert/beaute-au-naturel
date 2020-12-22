@@ -26,3 +26,10 @@ window.addEventListener('scroll', () => {
   }
 })
 
+ 
+ $(document).ready(function() { 
+
+ $('.dropdown-toggle').dropdown(); 
+
+ }); 
+
