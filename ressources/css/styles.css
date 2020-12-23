@@ -58,24 +58,26 @@ nav {
 
 .white {
     color: #fff;
+    font-weight: 600;
 }
 
 .whiteLogo {
     color: transparent !important;
 }
 
-nav.scroll {
-    background-color: rgb(255, 255, 255);
+/*js for navbar*/
+nav.scroll, .dropdown-menu.scroll {
+    background-color: rgb(255, 255, 255) !important;
     transition: 1s;
     box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
     padding: 10px !important;
-    font-size: 0.8em;
-    text-align: right !important;
+    font-size: 0.9em;
 }
 
-.whiteLogo.scroll, .white1.scroll, .white2.scroll, .white3.scroll, .white4.scroll {
+.whiteLogo.scroll, .white1.scroll, .white2.scroll, .white3.scroll, .white4.scroll, .white5.scroll, .white6.scroll, .white7.scroll, .white8.scroll, .white9.scroll, .white10.scroll, .white11.scroll {
     color: #000 !important;
 }
+/*end js navbar*/
 
 .text-center {
     color: #000;
@@ -86,7 +88,6 @@ header h1 {
     text-align: center;
     color: #ffff;
     margin-top: 150px;
-    margin-bottom: 150px;
 }
 
 .linkHeader {
@@ -159,7 +160,16 @@ img{
     margin: auto;
 }
 
-
+.linkPrestation {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+    width: 33%;
+    display: block;
+    margin: 30px auto 60px auto;
+    text-align: center;
+    border: 1px solid #e89863;
+}
 
 /*Section marques*/
 
