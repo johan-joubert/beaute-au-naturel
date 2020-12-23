@@ -84,9 +84,6 @@ nav {
     color: #fff !important;
 }
 
-.whiteLogo {
-    color: transparent !important;
-}
 
 /*js for navbar*/
 nav.scroll, .dropdown-menu.scroll {
@@ -169,7 +166,7 @@ header ul {
 
 /*section intermédiaire*/
 .intermediate{
-    height: 180px;
+    height: 280px;
     width: 100%;
     background-image: url(../images/annie-spratt-OWq8w3BYMFY-unsplash.jpg);
     background-position: center;
@@ -231,10 +228,6 @@ img{
     margin-bottom: 40px;
 }
 
-.marieCohr {
-    width
-}
-
 /*Follow Us*/
 i {
     color: #e4afa9 !important;
@@ -252,11 +245,6 @@ footer {
 footer ul li {
     color: #fff;
 
-}
-
-iframe {
-    width: 100%;
-    height: 100%;
 }
 
 .copyright {
