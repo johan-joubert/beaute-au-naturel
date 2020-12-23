@@ -7,6 +7,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    color: #212123;
 }
 
 a {
@@ -17,12 +18,23 @@ h2:after {
     display: block;
     height: 2px;
     background-color: rgb(2, 5, 2);
-    width: 100px;
+    width: 300px;
     content: " ";
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 2.5em !important;
+}
 
 
 /*HEADER*/
@@ -43,6 +55,13 @@ nav {
     transition: 1s;
 }
 
+.togglerIcon {
+    font-size: 1.5em;
+    color: #fff !important;
+
+}
+
+
 .navbar-nav {
     margin: auto 0 auto auto;
 }
@@ -59,6 +78,10 @@ nav {
 .white {
     color: #fff;
     font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #fff !important;
 }
 
 .whiteLogo {
@@ -88,6 +111,11 @@ header h1 {
     text-align: center;
     color: #ffff;
     margin-top: 150px;
+    font-size: 3em !important;
+}
+
+span {
+    font-size: 0.6em;
 }
 
 .linkHeader {
@@ -165,20 +193,28 @@ img{
     color: #000;
     font-size: 1.5em;
     width: 33%;
+    padding: 2px 15px;
     display: block;
     margin: 30px auto 60px auto;
     text-align: center;
-    border: 1px solid #e89863;
+    border: 1px solid #e4afa9;
+    transition: 0.5s;
+}
+
+.linkPrestation:hover {
+    color: #000;
+    background-color:#e4afa9;
+    transition: 0.5s;
 }
 
 /*Section marques*/
 
 #marques {
-    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(29, 17, 8, 0.2)), url(../images/IMG-20201208-WA0027.jpg);
+    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(29, 17, 8, 0.2)), url(../images/IMG-20201208-WA0015.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 90vh;
 }
 
 #marques ul {
@@ -197,6 +233,32 @@ img{
 
 /*Follow Us*/
 i {
-    color: #e89863 !important;
+    color: #e4afa9 !important;
     font-size: 4em;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #21241e;
+    color: #fff;
+    padding: 30px;
+}
+
+footer ul li {
+    color: #fff;
+
+}
+
+.copyright {
+    color: #fff;
+    background-color: #151712;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+
 }
