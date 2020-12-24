@@ -152,8 +152,8 @@ main {
 .linkRDV:hover {
     background-color: #ca0f2e;
     border: 1px solid #ca0f2e;
-
-    color: #2c2c2e;
+    border-radius: 10px;
+    color: #fff;
     transition: 1s;
     transform: scale(1.1);
 }
