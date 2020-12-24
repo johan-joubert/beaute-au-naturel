@@ -40,7 +40,7 @@ h2 {
 /*HEADER*/
 
 header {
-    background-image: url('../images/bg_header.jpg');
+    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/IMG-20201208-WA0013.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -56,11 +56,14 @@ nav {
 }
 
 .togglerIcon {
-    font-size: 1.5em;
-    color: #fff !important;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0) !important;
 
 }
 
+button:active {
+    outline-style:none !important;
+}
 
 .navbar-nav {
     margin: auto 0 auto auto;
@@ -84,6 +87,14 @@ nav {
     color: #fff !important;
 }
 
+.whiteLogo {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.whiteLogo:hover {
+    color: #fff;
+}
 
 /*js for navbar*/
 nav.scroll, .dropdown-menu.scroll {
@@ -99,140 +110,87 @@ nav.scroll, .dropdown-menu.scroll {
 }
 /*end js navbar*/
 
-.text-center {
-    color: #000;
-}
-
-
 header h1 {
-    text-align: center;
-    color: #ffff;
-    margin-top: 150px;
-    font-size: 3em !important;
-}
-
-span {
-    font-size: 0.6em;
-}
-
-.linkHeader {
-    margin: 50px auto !important;
-    display: block !important;
-    text-align: center !important;
-    width: 280px;
-    text-decoration: none;
-    color: #ffff;
-    border: 1px solid #fff;
-    padding: 10px 60px;
-    transition: 0.5s;
-    font-weight: 700;
-}
-
-.one {
-    background-color: #ffff;
-    color: #000;
-}
-
-.one:hover {
-    color: #000;
-}
-
-.two:hover {
-    color: #000;
-    background-color: #fff;
-    transition: 0.5s;
-}
-.bloc-contact a {
-    color: #fff;
-    margin-top: 10px !important;
-    font-weight: 600;
-}
-
-.contacts {
-    color: #fff;
-}
-
-.two {
-    color: #fff;
-}
-
-header ul {
-    list-style-type: none;
+    padding: 35vh 0;
+    font-size: 4em;
     color: #fff;
 }
 
 /*MAIN*/
 
-
-/*section intermédiaire*/
-.intermediate{
-    height: 280px;
-    width: 100%;
-    background-image: url(../images/annie-spratt-OWq8w3BYMFY-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/*Section prestation*/
-
-#prestation {
+main {
     padding: 100px;
 }
 
-img{
-    display: block;
-    margin: auto;
-}
-
-.linkPrestation {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.5em;
-    width: 33%;
-    padding: 2px 15px;
-    display: block;
-    margin: 30px auto 60px auto;
-    text-align: center;
-    border: 1px solid #e4afa9;
-    transition: 0.5s;
-}
-
-.linkPrestation:hover {
-    color: #000;
-    background-color:#e4afa9;
-    transition: 0.5s;
-}
-
-/*Section marques*/
-
-#marques {
-    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(29, 17, 8, 0.2)), url(../images/IMG-20201208-WA0015.jpg);
-    background-position: center;
+.bodyCare {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/visage.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    height: 90vh;
+    background-position: center;
+    transition: 1s;
 }
 
-#marques ul {
-    list-style-type: none;
+.bodyCare:hover {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(20, 13, 7, 0.2)), url('../images/visage.jpg');
+    transition: 1s;
+    transform: scale(1.1);
 }
 
-#marques ul li {
-    margin: 20px;
+.epilation {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/epilation.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
 }
 
-.nosMarques {
+.epilation:hover {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(20, 13, 7, 0.2)), url('../images/epilation.jpg');
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.modelage {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/modelage.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.modelage:hover {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(20, 13, 7, 0.2)), url('../images/modelage.jpg');
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.reflexologie {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/reflexologie.png');
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.reflexologie:hover {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.2), rgba(20, 13, 7, 0.2)), url('../images/reflexologie.png');
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+
+.linkCare {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 85px 60px;
     color: #fff;
-    padding-top: 40px;
-    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: 700;
 }
 
-/*Follow Us*/
-i {
-    color: #e4afa9 !important;
-    font-size: 4em;
+.linkCare:hover {
+    color: #fff;
 }
+
+
 
 /*Footer*/
 
