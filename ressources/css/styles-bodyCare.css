@@ -1,0 +1,167 @@
+/*GENERAL*/
+html {
+    scroll-behavior: smooth; 
+    transition: 3s
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #212123;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e4afa9;
+    width: 300px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 2.5em !important;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+small {
+    font-size: 1.2em;
+    color: #2c2c2e;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/visage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/*navbar*/
+
+
+nav {
+    padding: 40px !important;
+    transition: 1s;
+}
+
+.togglerIcon {
+    font-size: 2em;
+    color: rgb(0, 0, 0) !important;
+
+}
+
+button:active {
+    outline-style:none !important;
+}
+
+.navbar-nav {
+    margin: auto 0 auto auto;
+}
+
+.dropdown-menu {
+    background-color: transparent !important;
+    border: none;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.white {
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.whiteLogo {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.whiteLogo:hover {
+    color: #fff;
+}
+
+/*js for navbar*/
+nav.scroll, .dropdown-menu.scroll {
+    background-color: rgb(255, 255, 255) !important;
+    transition: 1s;
+    box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
+    padding: 10px !important;
+    font-size: 0.9em;
+}
+
+.whiteLogo.scroll, .white1.scroll, .white2.scroll, .white3.scroll, .white4.scroll, .white5.scroll, .white6.scroll, .white7.scroll, .white8.scroll, .white9.scroll, .white10.scroll, .white11.scroll {
+    color: #000 !important;
+}
+/*end js navbar*/
+
+header h1 {
+    padding: 35vh 0;
+    font-size: 4em;
+    color: #fff;
+}
+
+/*MAIN*/
+
+main {
+    padding: 100px;
+}
+
+
+
+
+
+/*Footer*/
+
+footer {
+    background-color: #21241e;
+    color: #fff;
+    padding: 30px;
+}
+
+footer ul li {
+    color: #fff;
+
+}
+
+.copyright {
+    color: #fff;
+    background-color: #151712;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+
+}
