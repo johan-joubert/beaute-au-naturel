@@ -137,6 +137,26 @@ main {
 }
 
 
+.linkRDV {
+    display: block;
+    margin: 60px auto;
+    padding: 15px 60px;
+    text-align: center;
+    border: 1px solid rgb(54, 54, 54);
+    width: 80%;
+    color: #ca0f2e;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.linkRDV:hover {
+    background-color: #ca0f2e;
+    border: 1px solid #ca0f2e;
+
+    color: #2c2c2e;
+    transition: 1s;
+    transform: scale(1.1);
+}
 
 
 
