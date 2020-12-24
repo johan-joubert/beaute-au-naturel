@@ -56,11 +56,14 @@ nav {
 }
 
 .togglerIcon {
-    font-size: 1.5em;
-    color: #fff !important;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0) !important;
 
 }
 
+button:active {
+    outline-style:none !important;
+}
 
 .navbar-nav {
     margin: auto 0 auto auto;
