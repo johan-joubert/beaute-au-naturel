@@ -13,10 +13,11 @@ const white8 = document.querySelector('.white8');
 const white9 = document.querySelector('.white9');
 const white10 = document.querySelector('.white10');
 const white11 = document.querySelector('.white11');
+const white12 = document.querySelector('.white12');
 const dropDown = document.querySelector('.dropdown-menu');
 
 window.addEventListener('scroll', () => {
-  if(window.scrollY > 450) {
+  if(window.scrollY > 600) {
     nav.classList.add('scroll');
     whiteLogo.classList.add('scroll');
     white1.classList.add('scroll');
@@ -30,6 +31,7 @@ window.addEventListener('scroll', () => {
     white9.classList.add('scroll');
     white10.classList.add('scroll');
     white11.classList.add('scroll');
+    white12.classList.add('scroll');
     dropDown.classList.add('scroll');
   }
   else {
@@ -46,6 +48,7 @@ window.addEventListener('scroll', () => {
     white9.classList.remove('scroll');
     white10.classList.remove('scroll');
     white11.classList.remove('scroll');
+    white12.classList.remove('scroll');
     dropDown.classList.remove('scroll');
   }
 });

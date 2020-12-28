@@ -1,6 +1,7 @@
 /*GENERAL*/
 html {
     scroll-behavior: smooth; 
+    transition: 3s
 }
 
 
@@ -17,11 +18,12 @@ a {
 h2:after {
     display: block;
     height: 2px;
-    background-color: rgb(2, 5, 2);
+    background-color: #e4afa9;
     width: 300px;
     content: " ";
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 ul {
@@ -36,11 +38,23 @@ h2 {
     font-size: 2.5em !important;
 }
 
+p {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+small {
+    font-size: 1.2em;
+    color: #2c2c2e;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
 
 /*HEADER*/
 
 header {
-    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/IMG-20201208-WA0013.jpg');
+    background-image: linear-gradient(rgba(15, 26, 34, 0.3), rgba(20, 13, 7, 0.3)), url('../images/visage.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -56,7 +70,7 @@ nav {
 }
 
 .togglerIcon {
-    font-size: 2.5em;
+    font-size: 2em;
     color: rgb(0, 0, 0) !important;
 
 }
@@ -105,7 +119,7 @@ nav.scroll, .dropdown-menu.scroll {
     font-size: 0.9em;
 }
 
-.whiteLogo.scroll, .white1.scroll, .white2.scroll, .white3.scroll, .white4.scroll, .white5.scroll, .white6.scroll, .white7.scroll, .white8.scroll, .white9.scroll, .white10.scroll, .white11.scroll {
+.whiteLogo.scroll, .white1.scroll, .white2.scroll, .white3.scroll, .white4.scroll, .white5.scroll, .white6.scroll, .white7.scroll, .white8.scroll, .white9.scroll, .white10.scroll, .white11.scroll, .white12.scroll {
     color: #000 !important;
 }
 /*end js navbar*/
@@ -120,6 +134,28 @@ header h1 {
 
 main {
     padding: 100px;
+}
+
+
+.linkRDV {
+    display: block;
+    margin: 60px auto;
+    padding: 15px 60px;
+    text-align: center;
+    border: 1px solid rgb(54, 54, 54);
+    width: 80%;
+    color: #ca0f2e;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.linkRDV:hover {
+    background-color: #ca0f2e;
+    border: 1px solid #ca0f2e;
+    border-radius: 10px;
+    color: #fff;
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 

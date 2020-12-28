@@ -136,6 +136,9 @@ main {
     padding: 100px;
 }
 
+.blockLink {
+    margin: auto;
+}
 
 .linkRDV {
     display: block;
@@ -184,4 +187,46 @@ footer ul li {
     margin: 0;
     padding: 0;
 
+}
+
+.blocRituel {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+    .blocRituel {
+        width: 80%;
+        text-align: center;
+    }
+    main {
+        padding: 0;
+    }
+
+    .linkRDV {
+        display: block;
+        margin: 60px auto;
+        padding: 15px 60px;
+        text-align: center;
+        border: 1px solid rgb(54, 54, 54);
+        width: 80%;
+        color: #ca0f2e;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    
+    .linkRDV:hover {
+        background-color: #ca0f2e;
+        border: 1px solid #ca0f2e;
+        border-radius: 10px;
+        color: #fff;
+        transition: 1s;
+        transform: scale(1.1);
+    }
+    
 }
